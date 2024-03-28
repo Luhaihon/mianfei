@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-03-28 15:12:22
+# 创建时间：2024-03-27 17:54:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：86
+# 节点数量：63
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,641 +85,480 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"新加坡|01直连C\r","type":"trojan","server":"2sg001.156786.xyz","port":33332,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg001.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|01直连B\r","type":"trojan","server":"2sg000001.156786.xyz","port":22229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg000001.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡01直连\r","type":"trojan","server":"1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz","port":22231,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|01|直连\r","type":"trojan","server":"3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz","port":22133,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|06奈飞ChatGPT2\r","type":"trojan","server":"tw2.233235.xyz","port":23263,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw2.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|01奈飞ChatGPT2\r","type":"trojan","server":"2gzdx21.156786.xyz","port":45332,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2gzdx21.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|05奈飞ChatGPT4\r","type":"trojan","server":"tw5.170203.xyz","port":2222,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw5.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾02奈飞ChatGPT\r","type":"trojan","server":"6gzdx2.233235.xyz","port":45332,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"6gzdx2.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾01奈飞ChatGPT\r","type":"trojan","server":"5gzdx.233235.xyz","port":45335,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"5gzdx.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|04奈飞ChatGPT3\r","type":"trojan","server":"3gzdx31.170203.xyz","port":5646,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"3gzdx31.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|05直连\r","type":"trojan","server":"1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz","port":7666,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|06|直连\r","type":"trojan","server":"2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz","port":2215,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|03直连\r","type":"trojan","server":"2sg03.156786.xyz","port":22259,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg03.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|06直连\r","type":"trojan","server":"2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz","port":22239,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|02直连C\r","type":"trojan","server":"2sg00029f670552-ac3e-f665-2405-766a52bbcde6.233235.xyz","port":671,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg00029f670552-ac3e-f665-2405-766a52bbcde6.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|02|直连2\r","type":"trojan","server":"1sgmax02.156786.xyz","port":22227,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"1sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|02直连2\r","type":"trojan","server":"2sg002ff0f283d-2433-bbbe-4d7a-59990b8b8b74.233235.xyz","port":22228,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg002ff0f283d-2433-bbbe-4d7a-59990b8b8b74.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|09|隧道\r","type":"trojan","server":"tw3.233235.xyz","port":58771,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sgmax09.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|05奈飞ChatGPT5\r","type":"trojan","server":"tw4.233235.xyz","port":670,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw4.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|02奈飞ChatGPTC\r","type":"trojan","server":"tw7.170203.xyz","port":670,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw7.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|03奈飞ChatGPTC\r","type":"trojan","server":"tw3.233235.xyz","port":11125,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw3.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|02奈飞ChatGPT0\r","type":"trojan","server":"tw1.170203.xyz","port":6678,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw1.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|03奈飞ChatGPT1\r","type":"trojan","server":"tw60.233235.xyz","port":11126,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"tw60.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03|奈飞ChatGPT1\r","type":"trojan","server":"tw1.170203.xyz","port":38871,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|05|奈飞ChatGPT1\r","type":"trojan","server":"tw60.233235.xyz","port":34633,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03|奈飞ChatGPT0\r","type":"trojan","server":"tw3.233235.xyz","port":24853,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|05奈飞ChatGPT0\r","type":"trojan","server":"tw1.170203.xyz","port":15059,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|001|直连\r","type":"trojan","server":"2us01.233235.xyz","port":667,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2us01.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|02隧道5\r","type":"trojan","server":"tw60.233235.xyz","port":22751,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sg00029f670552-ac3e-f665-2405-766a52bbcde6.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡03直连\r","type":"trojan","server":"sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz","port":2219,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|04|直连\r","type":"trojan","server":"sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz","port":3330,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|05|隧道4\r","type":"trojan","server":"tw60.233235.xyz","port":31696,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|01|隧道4\r","type":"trojan","server":"tw60.233235.xyz","port":41819,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|02|直连1\r","type":"trojan","server":"3sgmax02.156786.xyz","port":22354,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"3sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|03|直连\r","type":"trojan","server":"2sgmax03731a1ad7-1460-5924-74b2-ac4f3297dfbe.233235.xyz","port":2229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2sgmax03731a1ad7-1460-5924-74b2-ac4f3297dfbe.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|08隧道1\r","type":"trojan","server":"tw5.170203.xyz","port":35710,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"sgmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|01|隧道5\r","type":"trojan","server":"tw60.233235.xyz","port":55075,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"1sg04.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|04直连5\r","type":"trojan","server":"4sgmax02.156786.xyz","port":2239,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"4sgmax02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|08|直连\r","type":"trojan","server":"sgmax08.170203.xyz","port":5656,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"sgmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|05|隧道2\r","type":"trojan","server":"tw1.170203.xyz","port":39928,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"sgmax05010741bf-7346-2997-25c4-9ca3628115ab.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印度|01|直连\r","type":"trojan","server":"in01.170203.xyz","port":668,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"in01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"印度|01|隧道0\r","type":"trojan","server":"tw1.170203.xyz","port":12260,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"in01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"英国|01|直连\r","type":"trojan","server":"uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz","port":667,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"英国|01|隧道3\r","type":"trojan","server":"tw5.170203.xyz","port":26322,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国|02|直连\r","type":"trojan","server":"0kr02.156786.xyz","port":22449,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"0kr02.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国|03|直连\r","type":"trojan","server":"2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz","port":5556,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国|03|隧道0\r","type":"trojan","server":"tw60.233235.xyz","port":25076,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|02|隧道5\r","type":"trojan","server":"tw3.233235.xyz","port":14953,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"jpmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|03|直连\r","type":"trojan","server":"2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz","port":2228,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|05|直连\r","type":"trojan","server":"2jpmax05.233235.xyz","port":22229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jpmax05.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|03|直连|\r","type":"trojan","server":"jp03.156786.xyz","port":22229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"jp03.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|04|隧道|\r","type":"trojan","server":"tw60.233235.xyz","port":61256,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jpmax04.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|05|直连2\r","type":"trojan","server":"0jp05.156786.xyz","port":22229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"0jp05.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|01|直连\r","type":"trojan","server":"2jp01.233235.xyz","port":2223,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp01.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|02|直连\r","type":"trojan","server":"jpmax02.170203.xyz","port":667,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"jpmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本01直连\r","type":"trojan","server":"2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz","port":22198,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|04|隧道1\r","type":"trojan","server":"tw4.233235.xyz","port":26612,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|02直连\r","type":"trojan","server":"2jp002.170203.xyz","port":22239,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp002.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本03|直连\r","type":"trojan","server":"jp0003.156786.xyz","port":2228,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"jp0003.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|03|隧道5\r","type":"trojan","server":"tw5.170203.xyz","port":22935,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"0jpmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本01|隧道0\r","type":"trojan","server":"tw5.170203.xyz","port":40517,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"jpmax01.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本|04隧道4\r","type":"trojan","server":"tw60.233235.xyz","port":47192,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|01|隧道1\r","type":"trojan","server":"tw1.170203.xyz","port":35667,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2usmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|01|直连\r","type":"trojan","server":"2usmax01.170203.xyz","port":7454,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2usmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|01隧道1\r","type":"trojan","server":"tw3.233235.xyz","port":33597,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2usmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|001隧道\r","type":"trojan","server":"tw4.233235.xyz","port":18811,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2us01.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03直连\r","type":"trojan","server":"us03.170203.xyz","port":45454,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"us03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03隧道3\r","type":"trojan","server":"tw60.233235.xyz","port":50522,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"us03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|08|隧道3\r","type":"trojan","server":"tw4.233235.xyz","port":27255,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|02直连\r","type":"trojan","server":"2hkmax02.170203.xyz","port":22229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|04|奈飞ChatGPT2\r","type":"trojan","server":"tw60.233235.xyz","port":53858,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax04.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|04|奈飞ChatGPT3\r","type":"trojan","server":"tw3.233235.xyz","port":58517,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax04.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|07直连\r","type":"trojan","server":"2hkmax07.170203.xyz","port":453,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax07.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|07隧道5\r","type":"trojan","server":"tw1.170203.xyz","port":43383,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax07.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|03直连\r","type":"trojan","server":"hkmax003.233235.xyz","port":2229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax003.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|05直连\r","type":"trojan","server":"hkmax05.170203.xyz","port":22212,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|06直连\r","type":"trojan","server":"hkmax06.170203.xyz","port":667,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|03|直连\r","type":"trojan","server":"hkmax03.170203.xyz","port":22226,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|06隧道3\r","type":"trojan","server":"tw4.233235.xyz","port":58412,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|06|隧道2\r","type":"trojan","server":"tw3.233235.xyz","port":57019,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|01隧道2\r","type":"trojan","server":"tw4.233235.xyz","port":19372,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax01.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|10\r","type":"trojan","server":"hkmax10.170203.xyz","port":2229,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax10.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|09直连\r","type":"trojan","server":"hkmax09.170203.xyz","port":22649,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax09.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|11直连\r","type":"trojan","server":"hkmax11.233235.xyz","port":2223,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax11.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|10|直连\r","type":"trojan","server":"hkmax10.233235.xyz","port":555,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"hkmax10.233235.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|08直连\r","type":"trojan","server":"2hkmax08.170203.xyz","port":3747,"udp":true,"password":"cf9cc156-c725-4256-a89d-5c8ded732af4","sni":"2hkmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 极速节点香港 01","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14401,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 极速节点香港 02","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14402,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 极速节点香港 03","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14403,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 极速节点香港 04","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14404,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 极速节点香港 05","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14405,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 极速节点狮城 01","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14411,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 极速节点狮城 02","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14412,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 极速节点狮城 03","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14413,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 极速节点狮城 04","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14414,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬 极速节点狮城 05","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14415,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14431,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14432,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 03","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14433,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 04","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14434,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 05","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14435,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 极速节点美国 06","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14436,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 极速节点韩国 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14441,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 极速节点韩国 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14442,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 极速节点台湾 01","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14451,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 极速节点台湾 02","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14452,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 极速节点日本 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14421,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 极速节点日本 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14422,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 极速节点日本 03","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14423,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 极速节点日本 04","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14424,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 极速节点日本 05","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14425,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇰🇷 高速节点韩国 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14341,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 高速节点日本 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14321,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 高速节点日本 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14322,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 高速节点日本 03","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14323,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 高速节点日本 04","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14324,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇳 高速节点台湾 01","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14351,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 高速节点伦敦 01","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14501,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 高速节点伦敦 02","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14502,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 高速节点德国 01","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14500,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 高速节点德国 02","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14507,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇧🇷 高速节点巴西 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14505,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇧🇷 高速节点巴西 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14512,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦 高速节点加拿大 01","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14506,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦 高速节点加拿大 02","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14508,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷 高速节点土耳其 01","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14498,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷 高速节点土耳其 02","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14518,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇭 高速节点泰国","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14461,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇻🇳 高速节点越南","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14462,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇳 高速节点印度","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14494,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇺 高速节点悉尼","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14499,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇪 高速节点迪拜","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14503,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷 高速节点法国","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14504,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱 高速节点荷兰","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14513,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇩 高速节点印尼","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14514,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇿🇦 高速节点南非","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14515,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇪🇬 高速节点埃及","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14520,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇵🇭 高速节点菲律宾","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14491,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇹 高速节点意大利","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14493,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇪🇸 高速节点西班牙","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14492,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇺 高速节点匈牙利","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14496,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇱 高速节点以色列","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14509,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇦 高速节点乌克兰","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14511,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺 高速节点俄罗斯","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14495,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇲🇾 高速节点马来西亚","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14519,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇯🇵 高速节点尼日利亚","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14510,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇵🇰 高速节点巴基斯坦","type":"trojan","server":"bepgzbgp01.004837963.xyz","port":14516,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇲🇩 高速节点摩尔多瓦","type":"trojan","server":"bepbjbgp01.004837963.xyz","port":14517,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇷 购物 专线 阿根廷","type":"trojan","server":"bepshbgp01.004837963.xyz","port":14497,"udp":true,"password":"277E0712-F3F1-0435-CEC5-9177070F30FF","sni":"mpvideo.qpic.cn","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -742,92 +581,69 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "新加坡|01直连C\r"
-      - "新加坡|01直连B\r"
-      - "新加坡01直连\r"
-      - "新加坡|01|直连\r"
-      - "台湾|06奈飞ChatGPT2\r"
-      - "台湾|01奈飞ChatGPT2\r"
-      - "台湾|05奈飞ChatGPT4\r"
-      - "台湾02奈飞ChatGPT\r"
-      - "台湾01奈飞ChatGPT\r"
-      - "台湾|04奈飞ChatGPT3\r"
-      - "新加坡|05直连\r"
-      - "新加坡|06|直连\r"
-      - "新加坡|03直连\r"
-      - "新加坡|06直连\r"
-      - "新加坡|02直连C\r"
-      - "新加坡|02|直连2\r"
-      - "新加坡|02直连2\r"
-      - "新加坡|09|隧道\r"
-      - "台湾|05奈飞ChatGPT5\r"
-      - "台湾|02奈飞ChatGPTC\r"
-      - "台湾|03奈飞ChatGPTC\r"
-      - "台湾|02奈飞ChatGPT0\r"
-      - "台湾|03奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT1\r"
-      - "美国|05|奈飞ChatGPT1\r"
-      - "美国|03|奈飞ChatGPT0\r"
-      - "美国|05奈飞ChatGPT0\r"
-      - "美国|001|直连\r"
-      - "新加坡|02隧道5\r"
-      - "新加坡03直连\r"
-      - "新加坡|04|直连\r"
-      - "新加坡|05|隧道4\r"
-      - "新加坡|01|隧道4\r"
-      - "新加坡|02|直连1\r"
-      - "新加坡|03|直连\r"
-      - "新加坡|08隧道1\r"
-      - "新加坡|01|隧道5\r"
-      - "新加坡|04直连5\r"
-      - "新加坡|08|直连\r"
-      - "新加坡|05|隧道2\r"
-      - "印度|01|直连\r"
-      - "印度|01|隧道0\r"
-      - "英国|01|直连\r"
-      - "英国|01|隧道3\r"
-      - "韩国|02|直连\r"
-      - "韩国|03|直连\r"
-      - "韩国|03|隧道0\r"
-      - "日本|02|隧道5\r"
-      - "日本|03|直连\r"
-      - "日本|05|直连\r"
-      - "日本|03|直连|\r"
-      - "日本|04|隧道|\r"
-      - "日本|05|直连2\r"
-      - "日本|01|直连\r"
-      - "日本|02|直连\r"
-      - "日本01直连\r"
-      - "日本|04|隧道1\r"
-      - "日本|02直连\r"
-      - "日本03|直连\r"
-      - "日本|03|隧道5\r"
-      - "日本01|隧道0\r"
-      - "日本|04隧道4\r"
-      - "美国|01|隧道1\r"
-      - "美国|01|直连\r"
-      - "美国|01隧道1\r"
-      - "美国|001隧道\r"
-      - "美国|03直连\r"
-      - "美国|03隧道3\r"
-      - "香港|08|隧道3\r"
-      - "香港|02直连\r"
-      - "香港|04|奈飞ChatGPT2\r"
-      - "香港|04|奈飞ChatGPT3\r"
-      - "香港|07直连\r"
-      - "香港|07隧道5\r"
-      - "香港|03直连\r"
-      - "香港|05直连\r"
-      - "香港|06直连\r"
-      - "香港|03|直连\r"
-      - "香港|06隧道3\r"
-      - "香港|06|隧道2\r"
-      - "香港|01隧道2\r"
-      - "香港|10\r"
-      - "香港|09直连\r"
-      - "香港|11直连\r"
-      - "香港|10|直连\r"
-      - "香港|08直连\r"
+      - 🇭🇰 极速节点香港 01
+      - 🇭🇰 极速节点香港 02
+      - 🇭🇰 极速节点香港 03
+      - 🇭🇰 极速节点香港 04
+      - 🇭🇰 极速节点香港 05
+      - 🇸🇬 极速节点狮城 01
+      - 🇸🇬 极速节点狮城 02
+      - 🇸🇬 极速节点狮城 03
+      - 🇸🇬 极速节点狮城 04
+      - 🇸🇬 极速节点狮城 05
+      - 🇺🇸 极速节点美国 01
+      - 🇺🇸 极速节点美国 02
+      - 🇺🇸 极速节点美国 03
+      - 🇺🇸 极速节点美国 04
+      - 🇺🇸 极速节点美国 05
+      - 🇺🇸 极速节点美国 06
+      - 🇰🇷 极速节点韩国 01
+      - 🇰🇷 极速节点韩国 02
+      - 🇨🇳 极速节点台湾 01
+      - 🇨🇳 极速节点台湾 02
+      - 🇯🇵 极速节点日本 01
+      - 🇯🇵 极速节点日本 02
+      - 🇯🇵 极速节点日本 03
+      - 🇯🇵 极速节点日本 04
+      - 🇯🇵 极速节点日本 05
+      - 🇰🇷 高速节点韩国 01
+      - 🇯🇵 高速节点日本 01
+      - 🇯🇵 高速节点日本 02
+      - 🇯🇵 高速节点日本 03
+      - 🇯🇵 高速节点日本 04
+      - 🇨🇳 高速节点台湾 01
+      - 🇬🇧 高速节点伦敦 01
+      - 🇬🇧 高速节点伦敦 02
+      - 🇩🇪 高速节点德国 01
+      - 🇩🇪 高速节点德国 02
+      - 🇧🇷 高速节点巴西 01
+      - 🇧🇷 高速节点巴西 02
+      - 🇨🇦 高速节点加拿大 01
+      - 🇨🇦 高速节点加拿大 02
+      - 🇹🇷 高速节点土耳其 01
+      - 🇹🇷 高速节点土耳其 02
+      - 🇹🇭 高速节点泰国
+      - 🇻🇳 高速节点越南
+      - 🇮🇳 高速节点印度
+      - 🇦🇺 高速节点悉尼
+      - 🇦🇪 高速节点迪拜
+      - 🇫🇷 高速节点法国
+      - 🇳🇱 高速节点荷兰
+      - 🇮🇩 高速节点印尼
+      - 🇿🇦 高速节点南非
+      - 🇪🇬 高速节点埃及
+      - 🇵🇭 高速节点菲律宾
+      - 🇮🇹 高速节点意大利
+      - 🇪🇸 高速节点西班牙
+      - 🇭🇺 高速节点匈牙利
+      - 🇮🇱 高速节点以色列
+      - 🇺🇦 高速节点乌克兰
+      - 🇷🇺 高速节点俄罗斯
+      - 🇲🇾 高速节点马来西亚
+      - 🇯🇵 高速节点尼日利亚
+      - 🇵🇰 高速节点巴基斯坦
+      - 🇲🇩 高速节点摩尔多瓦
+      - 🇦🇷 购物 专线 阿根廷
 
 rules:
 # 本地/局域网地址
